@@ -1,0 +1,31 @@
+/* This text utility does not exist in Bootstrap */
+#app-run-banner .text-pre{
+  white-space: pre;
+}
+
+#app-run-banner .badge-carbon{
+  background-color: #00748d;
+  color: White;
+}
+
+#app-run-banner .badge-metal{
+  background-color: #6c757e;
+  color: White;
+}
+
+#app-run-banner .badge-glass{
+  background-color: DarkKhaki;
+  color:Black;
+}
+
+#app-run-banner .badge-base-composite{
+  background-color: White;
+  border: 2px solid Brown;
+  color:Brown;
+}
+
+#app-run-banner .badge-base-metal{
+  background-color: White;
+  border: 2px solid #6c757e;
+  color:#6c757e;
+}
