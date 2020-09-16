@@ -21,24 +21,32 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>  
 
 <title>SmartSim Web</title>    <!--------------------------------------------------------------------- Single Page Application -->
-
+<script src="./main.js"></script>
+<script src="./httpResponse.js"></script>
 <!------------------------------------------------------------------------------------------------------------------ Vue model -->    
+<link rel="stylesheet" href="./app-smartsim/app-run-index/AppRunIndex.css">  <!------------ CSS -->
+<link rel="stylesheet" href="./app-smartsim/AppSmartsim.css">    
+<link rel="stylesheet" href="./app-smartsim/app-run-index/app-run-banner/AppRunBanner.css"> 
+<link rel="stylesheet" href="./app-smartsim/app-run-index/app-presentation/app-view-card/AppViewCard.css">
 <div class="container-fluid" id="vm-smartsim">    <!--------------------------------------------------------------------- HTML -->
     
-   <p> {{req}}
-    {{res}}</p>
+    <app-smartsim></app-smartsim>
 </div>
-
+<script src="./app-smartsim/app-run-index/app-presentation/app-view-card/AppViewCard.js"></script>
+<script src="./app-smartsim/app-run-index/app-presentation/AppPresentation.js"></script>
+<script src="./app-smartsim/app-run-index/app-run-banner/AppRunBanner.js"></script>
+<script src="./app-smartsim/app-run-index/AppRunIndex.js"></script>
+<script src="./app-smartsim/AppSmartsim.js"></script>
 <script>    //--------------------------------------------------------------------------------------------------- Vue instance -->
 var vm = new Vue(
     { 
         el: '#vm-smartsim',
         components: {
-            
+            'app-smartsim': AppSmartsim,
         },
         data: {
             req: 'GET ./ HTTP/1.1',
-            res: 'httpResponse',
+            res: httpResponse,
         },
     }
 );

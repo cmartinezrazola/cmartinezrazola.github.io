@@ -85,7 +85,7 @@ const httpResponse =
                     title: 'Rendering',
                     material: 'CARBON GLASS METAL',
                     media: [
-                        '../../run/00000478/doc/meta/Rendering.mp4'
+                        runDir + '00000478/' + mediaDir + 'Rendering.mp4'
                     ]
                 },
             links:{
@@ -99,7 +99,7 @@ const httpResponse =
                     title: 'View 1',
                     material: 'CARBON GLASS METAL',
                     media: [
-                        '../../run/00000478/doc/meta/View1.mp4'
+                        runDir + '00000478/' + mediaDir + 'View1.mp4'
                     ]
                 },
             links:{
@@ -113,7 +113,7 @@ const httpResponse =
                     title: 'View 2',
                     material: 'CARBON GLASS METAL',
                     media: [
-                        '../../run/00000478/doc/meta/View2.mp4'
+                        runDir + '00000478/' + mediaDir + 'View2.mp4'
                     ]
                 },
             links:{
@@ -127,8 +127,8 @@ const httpResponse =
                     title: 'Performance',
                     material: 'CARBON GLASS METAL',
                     media: [
-                        '../../run/00000478/doc/meta/Stiffness.jpg',
-                        '../../run/00000478/doc/meta/View1.jpg'
+                        runDir + '00000478/' + mediaDir + 'Stiffness.jpg',
+                        runDir + '00000478/' + mediaDir + 'View1.jpg'
                     ]
                 },
             links:{
@@ -142,9 +142,9 @@ const httpResponse =
                     title: 'Check',
                     material: 'CARBON GLASS METAL',
                     media: [
-                        '../../run/00000478/doc/meta/Quasistatic.jpg',
-                        '../../run/00000478/doc/meta/Mass.jpg',
-                        '../../run/00000478/doc/meta/Energy.jpg'
+                        runDir + '00000478/' + mediaDir + 'Quasistatic.jpg',
+                        runDir + '00000478/' + mediaDir + 'Mass.jpg',
+                        runDir + '00000478/' + mediaDir + 'Energy.jpg'
                     ]
                 },
             links:{
