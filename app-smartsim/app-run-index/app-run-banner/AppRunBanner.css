@@ -29,3 +29,9 @@
   border: 2px solid #6c757e;
   color:#6c757e;
 }
+
+#app-run-banner .control-orange{
+  background-color: White;
+  color:DarkOrange;
+  border: 1px solid DarkOrange;
+}
