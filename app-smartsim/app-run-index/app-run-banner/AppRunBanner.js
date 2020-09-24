@@ -18,11 +18,20 @@ var AppRunBanner = {
   },
   template: 
 `
-<div class="container-fluid" id="app-run-banner">
+<div class="container-fluid border border-primary rounded mb-3" id="app-run-banner">
     
         <div class="row">
             <div class="col-2">
-                <h1><span class="badge badge-primary">{{resourceObject.attributes.name}}</span></h1>
+                <button  type="button" 
+                         class="btn btn-primary py-0 px-3 my-1"
+                         data-toggle="collapse" 
+                         v-bind:data-target="'#presentation_run_' + resourceObject.id" 
+                         aria-expanded="false" 
+                         v-bind:aria-controls="'presentation_run_' + resourceObject.id">
+                    <h2 class="font-weight-bold">
+                        {{resourceObject.attributes.name}}
+                    </h2>
+                </button>
             </div>
             <div class="col-2">
                 <span  class="badge badge-base-composite">{{resourceObject.attributes.baseComposite}}</span>

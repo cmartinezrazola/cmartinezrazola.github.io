@@ -14,10 +14,10 @@ var AppRunIndex = {
 `
 <div class="container-fluid mb-3" id="app-run-index">
     <div v-for="resourceObject in resourceObjectArray">
-        <button  type="button" class="container-fluid btn btn-outline-primary btn-lg btn-block mb-3">
+        <div class="container-fluid">
             <app-run-banner v-bind:resource-object="resourceObject"></app-run-banner>
-        </button>
-        <app-presentation v-bind:resource-identifier-array="resourceObject.relationships.presentation.data"></app-presentation>
+        </div>
+        <app-presentation v-bind:resource-identifier-array="resourceObject.relationships.presentation.data" class="collapse" v-bind:id="'presentation_run_' + resourceObject.id"></app-presentation>
     </div>
 </div>
 `

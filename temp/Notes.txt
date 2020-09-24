@@ -1,0 +1,2 @@
+Para scroll con el dedo es incomodo que los botones abran la presentacion.
+Pero puede hacerse scroll por el lateral.
