@@ -1,0 +1,20 @@
+#app-performance-card .badge-carbon{
+    background-color: #00748d;
+    color: White;
+  }
+  
+#app-performance-card .badge-metal{
+    background-color: #6c757e;
+    color: White;
+  }
+  
+#app-performance-card .badge-glass{
+    background-color: DarkKhaki;
+    color:Black;
+  }
+
+#app-performance-card .control-orange{
+    background-color: White;
+    color:DarkOrange;
+    border: 1px solid DarkOrange;
+  }
