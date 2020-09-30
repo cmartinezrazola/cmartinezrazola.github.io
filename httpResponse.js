@@ -124,10 +124,10 @@ const httpResponse =
             type: 'performanceCards', 
             id:'478_1', 
             attributes:{
-                    title: 'Performance',
+                    title: 'Resistance',
                     material: 'CARBON GLASS METAL',
                     media: [
-                        runDir + '00000478/' + mediaDir + 'Stiffness.jpg',
+                        runDir + '00000478/' + mediaDir + 'Resistance.gif',
                         runDir + '00000478/' + mediaDir + 'View1.jpg'
                     ]
                 },
